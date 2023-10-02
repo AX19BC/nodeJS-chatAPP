@@ -1,4 +1,4 @@
-POST https://nejcochat.onrender.com/authenticate 
+POST https://nejcochat2.onrender.com
 Content-Type: application/json
 
 {
