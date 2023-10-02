@@ -1,5 +1,5 @@
 {
-  "homepage": "https://AX19BC.github.io/nodeJS-chatAPP",
+  "homepage": "https://AX19BC.github.io/nodeJS-chatAPP/frontEnd/",
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +8,8 @@
     "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "vite build",
+    "build": "vite build && (cd ../backend && npm install)",
+    "serve": "vite preview",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
